@@ -5,6 +5,8 @@
 @import "reset.css";//	Standard reset css used to reset the browsers default styles
 @import "imports/colors.scss";//	Imports the Color variables
 @import "grid/grid.scss";// Imports GRID!!
+@import "imports/plugins.scss";// Imports plugins style
 @import "imports/basic.scss";// Basic Style Sheet
 @import "imports/masthead.scss";// Imports masthead style
 @import "imports/buttons.scss";// Imports buttons style
+@import "imports/navigation.scss";// Imports navigation style

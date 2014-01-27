@@ -1,0 +1,20 @@
+// Styles the nav and nav-bg classes
+.nav-bg {
+	@include single-box-shadow(darken(#f9f9f9, 10%), 0, 3px, 0);
+	background-color: $white;
+	height: 60px;
+	@include transition(2s);
+	width: 100%;
+}
+
+nav {
+	@include gridle(12);
+	li {
+		display: inline;
+		list-style: none;
+		padding: 0 1em;
+	}
+	ul {
+		padding-top: 20px;
+	}
+}

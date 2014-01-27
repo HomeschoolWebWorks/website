@@ -8,9 +8,6 @@
 <body>
 
 	<div class="masthead">
-		<nav>
-			<a href="#">Test Navigation</a>
-		</nav>
 		<div class="logo">
 			<h1>
 				Homeschool Web Works Group
@@ -20,7 +17,19 @@
 			</p>
 		</div>
 	</div>
-
+	<div class="nav-bg">
+		<div class="container">
+			<nav>
+				<ul>
+					<li><a href="#">link</a></li>
+					<li><a href="#">link</a></li>
+					<li><a href="#">link</a></li>
+					<li><a href="#">link</a></li>
+					<li><a href="#">link</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
 	<div class="about-bg">
 		<div class="container">
 			
@@ -28,5 +37,11 @@
 	</div>
 
 <script src="js/jquery.min.js"></script>
+<script src="js/sticky.js"></script>
+<script>
+  $(document).ready(function(){
+    $(".nav-bg").sticky({topSpacing:0});
+  });
+</script>
 </body>
 </html>
