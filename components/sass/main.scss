@@ -1,7 +1,10 @@
-@import "compass";
-@import "reset.css";
-@import "imports/colors.scss";
-@import "grid/grid.scss";
-@import "imports/basic.scss";
-@import "imports/masthead.scss";
-@import "imports/buttons.scss";
+// This file is outputed to main.css in the CSS file!
+// You must use some sort of compiler.
+
+@import "compass"; //	Compass IS used in this project (Edit Setting in the compass config file ruby/compassconfig) 
+@import "reset.css";//	Standard reset css used to reset the browsers default styles
+@import "imports/colors.scss";//	Imports the Color variables
+@import "grid/grid.scss";// Imports GRID!!
+@import "imports/basic.scss";// Basic Style Sheet
+@import "imports/masthead.scss";// Imports masthead style
+@import "imports/buttons.scss";// Imports buttons style

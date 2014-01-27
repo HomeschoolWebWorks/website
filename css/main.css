@@ -5515,14 +5515,14 @@ html.ipad-landscape .parent-ipad-landscape {
   max-width: 960px;
 }
 
-/* line 1, ../components/sass/imports/_basic.scss */
+/* line 5, ../components/sass/imports/_basic.scss */
 body {
   height: 2000px;
   margin: 0 auto;
 }
 
 /*==========  Navigation  ==========*/
-/* line 8, ../components/sass/imports/_basic.scss */
+/* line 12, ../components/sass/imports/_basic.scss */
 nav {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -5545,7 +5545,7 @@ nav {
 }
 
 /*==========  About Us Page  ==========*/
-/* line 3, ../components/sass/imports/_masthead.scss */
+/* line 4, ../components/sass/imports/_masthead.scss */
 .masthead {
   width: 100%;
   background: white url(../img/header-bg.jpg) no-repeat fixed;
@@ -5553,7 +5553,7 @@ nav {
   padding: 220px 0 250px 0;
 }
 
-/* line 11, ../components/sass/imports/_masthead.scss */
+/* line 12, ../components/sass/imports/_masthead.scss */
 .logo h1 {
   font-family: sans-serif;
   font-weight: 300;
@@ -5561,7 +5561,7 @@ nav {
   color: #f9f9f9;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
-/* line 18, ../components/sass/imports/_masthead.scss */
+/* line 19, ../components/sass/imports/_masthead.scss */
 .logo p {
   color: #f9f9f9;
   font-family: sans-serif;
