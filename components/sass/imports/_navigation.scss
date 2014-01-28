@@ -1,15 +1,17 @@
 // Styles the nav and nav-bg classes
 .nav-bg {
-	@include box-shadow(darken($lightGrey, 5%) 0 3px 0, rgba(000,000,000,0.3) 0 5px 5px);
-	background-color: $lightGrey;
+	@include box-shadow(darken(#2f9ca3, 10%) 0 5px 0, rgba(000,000,000,0.3) 0 5px 5px);
+	background-color: #2f9ca3;
 	height: 60px;
 	@include transition(2s);
 	width: 100%;
+	opacity: 0.9;
 }
 
 nav {
-	z-index: 11;
+	z-index: 11;// Make sure z-index is a lot
 	@include gridle(12);
+	text-align: center;
 	li {
 		display: inline;
 		list-style: none;
@@ -20,5 +22,32 @@ nav {
 	}
 	a {
 		text-shadow: 0 1px 1px rgba(000,000,000,0.3);
+		@include transition(0.5s);
+		border-bottom: 5px solid darken(#2f9ca3, 10%);
+		padding-bottom: 13px;
 	}
+}
+
+// Hover States For Navigation Tabs
+
+.he:hover { //Home Tab
+	text-shadow: none;
+	@include transition(0.5s);
+	border-bottom: 5px solid $darkGrey;
+}
+.at:hover { //About Us Tab
+	@extend .he:hover;
+	border-bottom: 5px solid lighten($lightBlue, 10%);
+}
+.tm:hover {//Team Tab
+	@extend .he:hover;
+	border-bottom: 5px solid lighten($lightGreen, 10%);
+}
+.po:hover {//Portfolio Tab
+	@extend .he:hover;
+	border-bottom: 5px solid lighten($lightPurple, 10%);
+}
+.ct:hover {//Contact Us Tab
+	@extend .he:hover;
+	border-bottom: 5px solid $lightYellow;
 }

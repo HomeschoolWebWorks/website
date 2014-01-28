@@ -22,8 +22,16 @@ h1 {
 	color: $lightBlue;
 }
 
+h3 {
+	font-family: "pt-sans", sans-serif;
+	font-size: 1.7em;
+	color: $lightBlue;
+	font-weight: lighter;
+	letter-spacing: 1px;
+}
+
 /*================================
-=            About Us            =
+=            About Us            = // Currently Being Worked On by Micaiah
 ================================*/
 
 .about-bg {
@@ -56,6 +64,22 @@ h1 {
 		}
 	}
 }
+
+.about h3 {
+	padding: 10px 0;
+}
+
+.about section{
+	margin: 0 auto;
+	@include gridle(4);
+	text-align: justify;
+	p {
+		padding: 10px;
+	}
+
+}
+
+
 
 /*-----  End of About Us  ------*/
 

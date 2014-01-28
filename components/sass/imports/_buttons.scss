@@ -1,1 +1,13 @@
 // No Buttons YET!!
+
+%btn-main {
+	border-radius: 100%;
+	border: 2px solid $white;
+	font-weight: lighter;	
+	@include transition(0.3s);
+	&:hover {
+		@include transition(0.3s);
+		background-color: rgba(249, 249, 249, 0.3);
+		color: $darkGrey;
+	}
+}

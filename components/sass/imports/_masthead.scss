@@ -5,7 +5,7 @@
 	width: 100%;
 	background: #fff url(../img/header-bg.jpg) no-repeat fixed;
 	text-align: center;
-	padding: 225px 0 225px 0;
+	padding: 160px 0 93px 0;
 }
 
 .logo {
@@ -21,7 +21,19 @@
 		font-family: sans-serif;
 		font-weight: 100;
 		font-size: 1.5em;
-		padding-top: 15px;
+		padding-top: 45px;
 		@include single-text-shadow(rgba(000,000,000,0.3), 1px, 1px, 1px);
+	}
+}
+
+.masthead a {
+	margin-top: 120px;
+	@extend %btn-main;
+	@extend .fa;
+	@extend .fa-angle-down;
+	@extend .fa-3x;
+	padding: 0 9px;
+	&:hover {
+		@include scale(1.15);
 	}
 } 
