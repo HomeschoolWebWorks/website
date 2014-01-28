@@ -8,10 +8,54 @@ body {
 }
 
 a  {
-	font-weight: normal;
+	font-weight: bold;
 	font-size: 1.5em;
-	color: #444444;
+	color: $white;
 	text-decoration: none;
-	font-family: sans-serif;
+	font-family: "pt-sans", sans-serif;
 	letter-spacing: 0.8px;
 }
+
+h1 {
+	font-family: "Ubuntu", sans-serif;
+	font-size: 5em;
+	color: $lightBlue;
+}
+
+/*================================
+=            About Us            =
+================================*/
+
+.about-bg {
+
+}
+
+.about {
+	@include gridle(12);
+	header {
+		padding-top: 30px;
+		text-align: center;
+		h1 {
+			text-shadow: 0 1px 1px rgba(000,000,000,0.1);
+			&:before {
+				z-index: -1;
+				content: url(../img/line.png);
+				float: left;
+				position: relative;
+				bottom: 15px;
+				left: 35px;
+			}
+			&:after {
+				z-index: -1;
+				content: url(../img/line.png);
+				float: right;
+				position: relative;
+				bottom: 15px;
+				right: 35px;
+			}
+		}
+	}
+}
+
+/*-----  End of About Us  ------*/
+

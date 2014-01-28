@@ -4,6 +4,7 @@
 @import "compass"; //	Compass IS used in this project (Edit Setting in the compass config file ruby/compassconfig) 
 @import "reset.css";//	Standard reset css used to reset the browsers default styles
 @import "imports/colors.scss";//	Imports the Color variables
+@import "imports/fonts.scss";// Imports the fonts
 @import "grid/grid.scss";// Imports GRID!!
 @import "imports/plugins.scss";// Imports plugins style
 @import "imports/basic.scss";// Basic Style Sheet
