@@ -16,8 +16,8 @@
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("../font/fontawesome-webfont.eot?v=4.0.3");
-  src: url("../font/fontawesome-webfont.eot?#iefix&v=4.0.3") format("embedded-opentype"), url("../font/fontawesome-webfont.woff?v=4.0.3") format("woff"), url("../font/fontawesome-webfont.ttf?v=4.0.3") format("truetype"), url("../font/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular") format("svg");
+  src: url("../components/fonts/fontawesome/font/fontawesome-webfont.eot?v=4.0.3");
+  src: url("../components/fonts/fontawesome/font/fontawesome-webfont.eot?#iefix&v=4.0.3") format("embedded-opentype"), url("../components/fonts/fontawesome/font/fontawesome-webfont.woff?v=4.0.3") format("woff"), url("../components/fonts/fontawesome/font/fontawesome-webfont.ttf?v=4.0.3") format("truetype"), url("../components/fonts/fontawesome/font/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -7695,6 +7695,13 @@ h1 {
 }
 
 /* line 25, ../components/sass/imports/_basic.scss */
+h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2em;
+  color: #2d3e50;
+}
+
+/* line 31, ../components/sass/imports/_basic.scss */
 h3 {
   font-family: "pt-sans", sans-serif;
   font-size: 1.7em;
@@ -7703,10 +7710,17 @@ h3 {
   letter-spacing: 1px;
 }
 
+/* line 39, ../components/sass/imports/_basic.scss */
+p {
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: #2d3e50;
+}
+
 /*================================
 =            About Us            = // Currently Being Worked On by Micaiah
 ================================*/
-/* line 41, ../components/sass/imports/_basic.scss */
+/* line 53, ../components/sass/imports/_basic.scss */
 .about {
   float: left;
   direction: ltr;
@@ -7722,16 +7736,16 @@ h3 {
 .gridle-debug .about.parent:before, .about.gridle-debug.parent:before {
   content: "grid-parent--12";
 }
-/* line 43, ../components/sass/imports/_basic.scss */
+/* line 55, ../components/sass/imports/_basic.scss */
 .about header {
   padding-top: 30px;
   text-align: center;
 }
-/* line 46, ../components/sass/imports/_basic.scss */
+/* line 58, ../components/sass/imports/_basic.scss */
 .about header h1 {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
-/* line 48, ../components/sass/imports/_basic.scss */
+/* line 60, ../components/sass/imports/_basic.scss */
 .about header h1:before {
   z-index: -1;
   content: url(../img/line.png);
@@ -7740,7 +7754,7 @@ h3 {
   bottom: 15px;
   left: 35px;
 }
-/* line 56, ../components/sass/imports/_basic.scss */
+/* line 68, ../components/sass/imports/_basic.scss */
 .about header h1:after {
   z-index: -1;
   content: url(../img/line.png);
@@ -7750,14 +7764,14 @@ h3 {
   right: 35px;
 }
 
-/* line 68, ../components/sass/imports/_basic.scss */
+/* line 80, ../components/sass/imports/_basic.scss */
 .about h3 {
   padding: 10px 0;
 }
 
-/* line 72, ../components/sass/imports/_basic.scss */
+/* line 84, ../components/sass/imports/_basic.scss */
 .about section {
-  margin: 0 auto;
+  margin: 20px auto 0 auto;
   float: left;
   direction: ltr;
   padding: 0 10px;
@@ -7773,9 +7787,50 @@ h3 {
 .gridle-debug .about section.parent:before, .about section.gridle-debug.parent:before {
   content: "grid-parent--4";
 }
-/* line 76, ../components/sass/imports/_basic.scss */
+/* line 88, ../components/sass/imports/_basic.scss */
+.about section h2 {
+  padding-top: 15px;
+}
+/* line 91, ../components/sass/imports/_basic.scss */
 .about section p {
   padding: 10px;
+}
+/* line 95, ../components/sass/imports/_basic.scss */
+.about section:hover header a {
+  background-color: #3598dc;
+  color: #f9f9f9;
+  border-color: #2a80b9;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+/* line 101, ../components/sass/imports/_basic.scss */
+.about section:hover .fa-mobile {
+  background-color: #9c59b8;
+  border-color: #8f44ad;
+}
+/* line 105, ../components/sass/imports/_basic.scss */
+.about section:hover .fa-flag {
+  background-color: #f1c40f;
+  border-color: #f49c14;
+}
+
+/* line 114, ../components/sass/imports/_basic.scss */
+.about a {
+  color: #3598dc;
+  font-size: 3em;
+  border-radius: 100%;
+  margin: 0 auto;
+  width: 80px;
+  height: 65px;
+  padding-top: 15px;
+  display: block;
+  border: 3px solid #3598dc;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
 
 /*-----  End of About Us  ------*/
@@ -7874,51 +7929,18 @@ nav {
 }
 /* line 15, ../components/sass/imports/_navigation.scss */
 nav li {
-  display: inline;
-  list-style: none;
+  display: inline-block;
   padding: 0 3em;
 }
-/* line 20, ../components/sass/imports/_navigation.scss */
+/* line 19, ../components/sass/imports/_navigation.scss */
 nav ul {
   padding-top: 20px;
 }
-/* line 23, ../components/sass/imports/_navigation.scss */
+/* line 22, ../components/sass/imports/_navigation.scss */
 nav a {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  border-bottom: 5px solid #24767b;
-  padding-bottom: 13px;
-}
-
-/* line 33, ../components/sass/imports/_navigation.scss */
-.he:hover, .at:hover, .tm:hover, .po:hover, .ct:hover {
-  text-shadow: none;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-  border-bottom: 5px solid #2d3e50;
-}
-
-/* line 38, ../components/sass/imports/_navigation.scss */
-.at:hover {
-  border-bottom: 5px solid #60aee4;
-}
-
-/* line 42, ../components/sass/imports/_navigation.scss */
-.tm:hover {
-  border-bottom: 5px solid #2ae0bd;
-}
-
-/* line 46, ../components/sass/imports/_navigation.scss */
-.po:hover {
-  border-bottom: 5px solid #b17dc7;
-}
-
-/* line 50, ../components/sass/imports/_navigation.scss */
-.ct:hover {
-  border-bottom: 5px solid #f1c40f;
 }

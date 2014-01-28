@@ -22,12 +22,24 @@ h1 {
 	color: $lightBlue;
 }
 
+h2 {
+	font-family: "Ubuntu", sans-serif;
+	font-size: 2em;
+	color: $darkGrey;
+}
+
 h3 {
 	font-family: "pt-sans", sans-serif;
 	font-size: 1.7em;
 	color: $lightBlue;
 	font-weight: lighter;
 	letter-spacing: 1px;
+}
+
+p {
+	font-family: sans-serif;
+	font-weight: lighter;
+	color: $darkGrey;
 }
 
 /*================================
@@ -70,14 +82,49 @@ h3 {
 }
 
 .about section{
-	margin: 0 auto;
+	margin: 20px auto 0 auto;
 	@include gridle(4);
 	text-align: justify;
+	h2 {
+		padding-top: 15px;
+	}
 	p {
 		padding: 10px;
 	}
+	&:hover {
+		header a {
+			background-color: $lightBlue;
+			color: $white;
+			border-color: $darkBlue;
+			@include transition(0.3s);
+		}
+		.fa-mobile {
+			background-color: $lightPurple;
+			border-color: $darkPurple;
+		}	
+		.fa-flag {
+			background-color: $lightYellow;
+			border-color: $darkYellow;
+		}
+	}
 
 }
+
+
+.about a {
+	color: $lightBlue;
+	font-size: 3em;
+	border-radius: 100%;
+	margin: 0 auto;
+	width: 80px;
+	height: 65px;
+	padding-top: 15px;
+	display: block;
+	border: 3px solid $lightBlue;
+	@include transition(0.5s);
+
+}
+
 
 
 
