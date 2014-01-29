@@ -1,1 +1,6 @@
 /.sass-cache/
+.gitignore.sublime-workspace
+config.rb
+
+# add back in
+!/components/ruby/compass_config/config.rb
