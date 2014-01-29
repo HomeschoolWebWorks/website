@@ -22,28 +22,31 @@ nav {
 	a {
 		text-shadow: 0 1px 1px rgba(000,000,000,0.3);
 		@include transition(0.5s);
+		display: inline-block;
+		padding-bottom: 16px;
+		border-bottom: 5px solid darken(#2f9ca3, 10%);
 	}
 }
 
 // Hover States For Navigation Tabs
 
-// .he:hover { //Home Tab
-// 	@include transition(0.5s);
-// 	color: $darkGrey;
-// }
-// .at:hover { //About Us Tab
-// 	@extend .he:hover;
-// 	color: lighten($lightBlue, 10%);
-// }
-// .tm:hover {//Team Tab
-// 	@extend .he:hover;
-// 	border-bottom: 17px solid lighten($lightGreen, 10%);
-// }
-// .po:hover {//Portfolio Tab
-// 	@extend .he:hover;
-// 	border-bottom: 17px solid lighten($lightPurple, 10%);
-// }
-// .ct:hover {//Contact Us Tab
-// 	@extend .he:hover;
-// 	border-bottom: 17px solid $lightYellow;
-// }
+.he:hover { //Home Tab
+	@include transition(0.5s);
+	border-color: $darkGrey;
+}
+.at:hover { //About Us Tab
+	@extend .he:hover;
+	border-color: lighten($lightBlue, 10%);
+}
+.tm:hover {//Team Tab
+	@extend .he:hover;
+	border-color: lighten($lightGreen, 10%);
+}
+.po:hover {//Portfolio Tab
+	@extend .he:hover;
+	border-color: lighten($lightPurple, 10%);
+}
+.ct:hover {//Contact Us Tab
+	@extend .he:hover;
+	border-color: $lightYellow;
+}

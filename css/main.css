@@ -7943,4 +7943,36 @@ nav a {
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  display: inline-block;
+  padding-bottom: 16px;
+  border-bottom: 5px solid #24767b;
+}
+
+/* line 33, ../components/sass/imports/_navigation.scss */
+.he:hover, .at:hover, .tm:hover, .po:hover, .ct:hover {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  border-color: #2d3e50;
+}
+
+/* line 37, ../components/sass/imports/_navigation.scss */
+.at:hover {
+  border-color: #60aee4;
+}
+
+/* line 41, ../components/sass/imports/_navigation.scss */
+.tm:hover {
+  border-color: #2ae0bd;
+}
+
+/* line 45, ../components/sass/imports/_navigation.scss */
+.po:hover {
+  border-color: #b17dc7;
+}
+
+/* line 49, ../components/sass/imports/_navigation.scss */
+.ct:hover {
+  border-color: #f1c40f;
 }
