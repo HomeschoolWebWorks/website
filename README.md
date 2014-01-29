@@ -1,6 +1,6 @@
 Some notes:
 
-This project is build on SASS and Compass. Please learn some more about these by either asking Google or Micaiah BEFORE you delve into the code.
+This project is built on SASS and Compass. Please learn some more about these by either asking Google or Micaiah BEFORE you delve into the code.
 *Micaiah
 
 ---------- INFO ---------- Hello group! This is just some info for you on what I am doing here.
