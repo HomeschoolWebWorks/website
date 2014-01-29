@@ -3,6 +3,10 @@ Some notes:
 This project is built on SASS and Compass. Please learn some more about these by either asking Google or Micaiah BEFORE you delve into the code.
 *Micaiah
 
+- Download and install these before using source code.
+- http://compass-style.org/
+- https://github.com/olivierbossel/gridle
+
 ---------- INFO ---------- Hello group! This is just some info for you on what I am doing here.
 
 First this is how I work.
