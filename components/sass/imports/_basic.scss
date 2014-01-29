@@ -1,45 +1,51 @@
 //	Basic Styles
 //	version 1.1
 
-
 body {
-	height: 2000px;
-	margin: 0 auto;
+    height: 2000px;
+    margin: 0 auto;
 }
 
-a  {
-	font-weight: bold;
-	font-size: 1.5em;
-	color: $white;
-	text-decoration: none;
-	font-family: "pt-sans", sans-serif;
-	letter-spacing: 0.8px;
+a {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: $white;
+    text-decoration: none;
+    font-family: "pt-sans", sans-serif;
+    letter-spacing: 0.8px;
 }
 
 h1 {
-	font-family: "Ubuntu", sans-serif;
-	font-size: 5em;
-	color: $lightBlue;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 5em;
+    color: $lightBlue;
 }
 
 h2 {
-	font-family: "Ubuntu", sans-serif;
-	font-size: 2em;
-	color: $darkGrey;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2em;
+    color: $darkGrey;
 }
 
 h3 {
-	font-family: "pt-sans", sans-serif;
-	font-size: 1.7em;
-	color: $lightBlue;
-	font-weight: lighter;
+    font-family: "pt-sans", sans-serif;
+    font-size: 1.7em;
+    color: $lightBlue;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+h4 {
+	font-family: 'Abel', sans-serif;
+	font-size: 1.5em;
+	color: $white;
 	letter-spacing: 1px;
 }
 
 p {
-	font-family: sans-serif;
-	font-weight: lighter;
-	color: $darkGrey;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: $darkGrey;
 }
 
 /*================================
@@ -47,80 +53,79 @@ p {
 ================================*/
 
 .about-bg {
-	margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .about {
-	@include gridle(12);
-	header {
-		padding-top: 30px;
-		text-align: center;
-		h1 {
-			text-shadow: 0 1px 1px rgba(000,000,000,0.1);
-			&:before {
-				z-index: -1;
-				content: url(../img/line.png);
-				float: left;
-				position: relative;
-				bottom: 15px;
-				left: 35px;
-			}
-			&:after {
-				z-index: -1;
-				content: url(../img/line.png);
-				float: right;
-				position: relative;
-				bottom: 15px;
-				right: 35px;
-			}
-		}
-	}
+    @include gridle(12);
+    header {
+        padding-top: 30px;
+        text-align: center;
+        h1 {
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+            &:before {
+                z-index: -1;
+                content: url(../img/line.png);
+                float: left;
+                position: relative;
+                bottom: 15px;
+                left: 35px;
+            }
+            &:after {
+                z-index: -1;
+                content: url(../img/line.png);
+                float: right;
+                position: relative;
+                bottom: 15px;
+                right: 35px;
+            }
+        }
+    }
 }
 
 .about h3 {
-	padding: 10px 0;
+    padding: 10px 0;
 }
 
 .about a {
-	color: $lightBlue;
-	font-size: 3em;
-	border-radius: 100%;
-	margin: 0 auto;
-	width: 80px;
-	height: 65px;
-	padding-top: 15px;
-	display: block;
-	border: 3px solid $lightBlue;
-	@include transition(0.5s);
-
+    color: $lightBlue;
+    font-size: 3em;
+    border-radius: 100%;
+    margin: 0 auto;
+    width: 80px;
+    height: 65px;
+    padding-top: 15px;
+    display: block;
+    border: 3px solid $lightBlue;
+    @include transition(0.5s);
 }
 
-.about section{
-	margin: 20px auto 0 auto;
-	@include gridle(4);
-	text-align: justify;
-	h2 {
-		padding-top: 15px;
-	}
-	p {
-		padding: 10px;
-	}
-	&:hover {
-		header a {
-			background-color: $lightBlue;
-			color: $white;
-			border-color: $darkBlue;
-			@include transition(0.3s);
-		}
-		.fa-mobile {
-			background-color: $lightPurple;
-			border-color: $darkPurple;
-		}	
-		.fa-flag {
-			background-color: $lightYellow;
-			border-color: $darkYellow;
-		}
-	}
+.about section {
+    margin: 20px auto 0 auto;
+    @include gridle(4);
+    text-align: justify;
+    h2 {
+        padding-top: 15px;
+    }
+    p {
+        padding: 10px;
+    }
+    &:hover {
+        header a {
+            background-color: $lightBlue;
+            color: $white;
+            border-color: $darkBlue;
+            @include transition(0.3s);
+        }
+        .fa-mobile {
+            background-color: $lightPurple;
+            border-color: $darkPurple;
+        }
+        .fa-flag {
+            background-color: $lightYellow;
+            border-color: $darkYellow;
+        }
+    }
 }
 
 /*-----  End of About Us  ------*/
@@ -130,39 +135,53 @@ p {
 ==============================*/
 
 .skills-bg {
-	width: 100%;
-	background: #fff url(../img/slide-2-bg.jpg) 50% 50% no-repeat;
-	padding: 60px 0 60px 0;
+    width: 100%;
+    background: white url(../img/slide-2-bg.jpg) 75% 75% fixed no-repeat;
+    width: 100%;
+    height: 16%;
+    padding: 60px 0 60px 0;
 }
 
 .skills {
-	h3 {
-		margin-bottom: 100px;
-		font-size: 2.5em;
-		font-weight: lighter;
-		border-bottom: 2px solid $lightBlue;
-		padding-bottom: 10px;
-		width: 100px;
-	}
+    h3 {
+    	color: lighten($lightBlue, 10%);
+        margin-bottom: 50px;
+        font-size: 2.5em;
+        font-weight: lighter;
+        border-bottom: 2px solid lighten($lightBlue, 10%);
+        padding-bottom: 10px;
+        width: 100px;
+    }
+    p {
+        color: $white;
+        text-align: justify;
+    }
+    .main-section {
+        @include gridle(6);
+    }
+}
+
+.skills .meter {
+	height: 40px;
+	margin: 10px 0;
 	p {
-		color: $white;
-		text-align: justify;
-	}
-	.main-section {
-		@include gridle(6);
+		font-family: 'pt-sans';
+		text-align: center;
+		margin-top: 0.25em;
+		font-weight: lighter;
+		font-size: 1.8em;
 	}
 }
 
-.skills footer a {
-	margin-top: 100px;
-	@include gridle(3.8);
-
+.skills footer {
+    padding-bottom: 20px;
+    a {
+    	font-size: 1.4em;
+    	font-weight: lighter;
+        margin-top: 85px;
+        @extend %btn-secondary;
+    }
 }
-
-
 
 
 /*-----  End of Skills  ------*/
-
-
-
