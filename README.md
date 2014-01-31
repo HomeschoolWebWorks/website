@@ -1,11 +1,13 @@
 Some notes:
 
-This project is built on SASS and Compass. Please learn some more about these by either asking Google or Micaiah BEFORE you delve into the code.
+This project is build on SASS and Compass. Please learn some more about these by either asking Google or Micaiah BEFORE you delve into the code.
 *Micaiah
 
-- Download and install these before using source code.
-- http://compass-style.org/
-- https://github.com/olivierbossel/gridle
+See bottom sections for information on setting up SASS Compass and Gridle.
+
+
+
+
 
 ---------- INFO ---------- Hello group! This is just some info for you on what I am doing here.
 
@@ -70,3 +72,26 @@ This will make the HTML element into a grid 6 if the user is on a mobile device.
 FOR MORE INFO GOTO: http://gridle.org/documentation
 
 If you have changes, comments, ideas. Contact Micaiah.
+
+
+
+
+---------- Setting up in Sublime Text for Windows ----------
+
+(I will have instructions for Linux eventually)
+(other text editors will not be the same, but may be similar)
+
+1.	Colorization
+	1.1 	Install package control https://sublime.wbond.net/
+	1.2 	Install Sass package 
+		1.2.1 	open command palate [Ctrl-Shift-P]
+		1.2.2 	search for [Package Control: Install Package] or any part thereof
+		1.2.3 	search for [sass] and install the package named Sass (only lists ST 2 support but it works fine on 3 also)
+2.	SCSS build
+	2.1 	For in editor build use the command palate as in previous section to install [SASS Build]
+	2.2 	For a graphical build tool install something like Koala (what I have here) http://koala-app.com/
+3.	Install SASS and plugins
+	3.1 	Make sure you have Ruby installed http://www.rubyinstaller.org/
+	3.2 	Install SASS by running [gem install sass]  (in the command line, preferably via powershell) 
+	3.3 	Install compass and gridle by running [gem install gridle]  (gridle depends on compass so it will install both)
+
