@@ -79,7 +79,6 @@ If you have changes, comments, ideas. Contact Micaiah.
 ---------- Setting up in Sublime Text for Windows ----------
 
 (I will have instructions for Linux eventually)
-(other text editors will not be the same, but may be similar)
 
 1.	Colorization
 	1.1 	Install package control https://sublime.wbond.net/
@@ -95,3 +94,6 @@ If you have changes, comments, ideas. Contact Micaiah.
 	3.2 	Install SASS by running [gem install sass]  (in the command line, preferably via powershell) 
 	3.3 	Install compass and gridle by running [gem install gridle]  (gridle depends on compass so it will install both)
 
+---------- For those of you not using Sublime Text ----------
+
+Probably the best advice would be to follow the instructions above starting at 2.2 and check for colorization rules for the editor.
