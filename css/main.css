@@ -7911,10 +7911,11 @@ p {
   padding-bottom: 20px;
 }
 /* line 178, ../components/sass/imports/_basic.scss */
-.skills footer a {
+.skills footer .readmore {
   font-size: 1.4em;
-  font-weight: lighter;
-  margin-top: 85px;
+  margin-top: 4em;
+  font-family: 'pt-sans', sans-serif;
+  font-weight: bold;
 }
 
 /*-----  End of Skills  ------*/
@@ -7979,7 +7980,7 @@ p {
 }
 
 /* line 15, ../components/sass/imports/_buttons.scss */
-.skills footer a {
+.skills footer .readmore {
   display: inline-block;
   border-radius: 3px;
   border: 2px solid #f9f9f9;
@@ -7990,7 +7991,7 @@ p {
   padding: 10px;
 }
 /* line 21, ../components/sass/imports/_buttons.scss */
-.skills footer a:hover {
+.skills footer .readmore:hover {
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -o-transition: 0.5s;

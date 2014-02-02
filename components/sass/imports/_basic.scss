@@ -1,5 +1,5 @@
-//	Basic Styles
-//	version 1.1
+//  Basic Styles
+//  version 1.1
 
 body {
     height: 2000px;
@@ -36,10 +36,10 @@ h3 {
 }
 
 h4 {
-	font-family: 'Abel', sans-serif;
-	font-size: 1.5em;
-	color: $white;
-	letter-spacing: 1px;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.5em;
+    color: $white;
+    letter-spacing: 1px;
 }
 
 p {
@@ -144,7 +144,7 @@ p {
 
 .skills {
     h3 {
-    	color: lighten($lightBlue, 10%);
+        color: lighten($lightBlue, 10%);
         margin-bottom: 50px;
         font-size: 2.5em;
         font-weight: lighter;
@@ -162,26 +162,26 @@ p {
 }
 
 .skills .meter {
-	height: 40px;
-	margin: 10px 0;
-	p {
-		font-family: 'pt-sans';
-		text-align: center;
-		margin-top: 0.25em;
-		font-weight: lighter;
-		font-size: 1.8em;
-	}
+    height: 40px;
+    margin: 10px 0;
+    p {
+        font-family: 'pt-sans';
+        text-align: center;
+        margin-top: 0.25em;
+        font-weight: lighter;
+        font-size: 1.8em;
+    }
 }
 
 .skills footer {
     padding-bottom: 20px;
-    a {
-    	font-size: 1.4em;
-    	font-weight: lighter;
-        margin-top: 85px;
+    .readmore {
+        font-size: 1.4em;
+        margin-top: 4em;
+        font-family: 'pt-sans', sans-serif;
+        font-weight: bold;
         @extend %btn-secondary;
     }
 }
-
 
 /*-----  End of Skills  ------*/
