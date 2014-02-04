@@ -49,11 +49,24 @@ p {
 }
 
 /*================================
-=            About Us            = // Currently Being Worked On by Micaiah
+=            About Us            = // Needs information about us.
 ================================*/
 
 .about-bg {
     margin-bottom: 50px;
+}
+
+.about a {
+    color: $lightBlue;
+    font-size: 3em;
+    border-radius: 100%;
+    margin: 0 auto;
+    width: 80px;
+    height: 65px;
+    padding-top: 15px;
+    display: block;
+    border: 3px solid $lightBlue;
+    @include transition(0.5s);
 }
 
 .about {
@@ -80,24 +93,10 @@ p {
                 right: 35px;
             }
         }
+        h3 {
+            padding: 10px 0;
+        }
     }
-}
-
-.about h3 {
-    padding: 10px 0;
-}
-
-.about a {
-    color: $lightBlue;
-    font-size: 3em;
-    border-radius: 100%;
-    margin: 0 auto;
-    width: 80px;
-    height: 65px;
-    padding-top: 15px;
-    display: block;
-    border: 3px solid $lightBlue;
-    @include transition(0.5s);
 }
 
 .about section {
@@ -131,7 +130,7 @@ p {
 /*-----  End of About Us  ------*/
 
 /*==============================
-=            Skills            = // Currently Being Worked On by Micaiah
+=            Skills            = // Structure Complete..Just needs info.
 ==============================*/
 
 .skills-bg {
@@ -161,7 +160,7 @@ p {
     }
 }
 
-.skills .meter {
+.skills .meter { // Progress Bars. To display our skills.
     height: 40px;
     margin: 10px 0;
     p {
@@ -185,3 +184,55 @@ p {
 }
 
 /*-----  End of Skills  ------*/
+
+/*============================
+=            Team            = // Currently Being Worked On by: Micaiah
+============================*/
+
+.team-bg {
+    // Style only if needed.
+}
+
+.team {
+    margin-top: 50px;
+    @include gridle(12);
+}
+
+.team section {
+    @include gridle(4);
+    margin-top: 20px;
+    .team-blue {
+        background-color: $lightBlue;
+    }
+    .team-green {
+        background-color: $lightGreen;
+    }
+}
+
+.team header {
+    text-align: center;
+    h1 {
+        color: $lightGreen;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+        &:before {
+            z-index: -1;
+            content: url(../img/line_green.png);
+            float: left;
+            position: relative;
+            bottom: 15px;
+            left: 35px;
+        }
+        &:after {
+            z-index: -1;
+            content: url(../img/line_green.png);
+            float: right;
+            position: relative;
+            bottom: 15px;
+            right: 35px;
+        }
+    }
+}
+
+
+/*-----  End of Team  ------*/
+
