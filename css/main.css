@@ -7672,14 +7672,14 @@ html.ipad-landscape .parent-ipad-landscape {
   max-width: 960px;
 }
 
-/* line 7, ../components/sass/imports/_plugins.scss */
+/* line 10, ../components/sass/imports/_plugins.scss */
 .teammate {
   overflow: hidden;
   position: relative;
   text-align: center;
   cursor: default;
 }
-/* line 17, ../components/sass/imports/_plugins.scss */
+/* line 15, ../components/sass/imports/_plugins.scss */
 .teammate .mask, .teammate .content {
   width: 100%;
   height: 100%;
@@ -7688,152 +7688,120 @@ html.ipad-landscape .parent-ipad-landscape {
   top: 0;
   left: 0;
 }
-/* line 25, ../components/sass/imports/_plugins.scss */
+/* line 23, ../components/sass/imports/_plugins.scss */
 .teammate img {
   display: block;
   position: relative;
+  width: 100%;
 }
-/* line 29, ../components/sass/imports/_plugins.scss */
+/* line 28, ../components/sass/imports/_plugins.scss */
 .teammate h2 {
   text-transform: uppercase;
-  color: #fff;
+  color: #2d3e50;
   text-align: center;
   position: relative;
-  font-size: 17px;
-  padding: 10px;
+  padding: 0 5px;
   background: rgba(0, 0, 0, 0.8);
-  margin: 20px 0 0 0;
+  font-size: 1.5em;
 }
-/* line 39, ../components/sass/imports/_plugins.scss */
+/* line 37, ../components/sass/imports/_plugins.scss */
 .teammate p {
-  font-family: Georgia, serif;
-  font-style: italic;
-  font-size: 12px;
+  font-family: 'Abel', sans-serif;
+  font-size: 16px;
   position: relative;
   color: #fff;
   padding: 10px 20px 20px;
   text-align: center;
-}
-/* line 48, ../components/sass/imports/_plugins.scss */
-.teammate a.info {
-  display: inline-block;
-  text-decoration: none;
-  padding: 7px 14px;
-  background: #000;
-  color: #fff;
-  text-transform: uppercase;
-  box-shadow: 0 0 1px black;
-}
-/* line 56, ../components/sass/imports/_plugins.scss */
-.teammate a.info:hover {
-  box-shadow: 0 0 5px black;
+  font-weight: 600;
 }
 
-/* line 62, ../components/sass/imports/_plugins.scss */
+/* line 48, ../components/sass/imports/_plugins.scss */
 .member-effect img {
   -webkit-transform: scaleY(1);
   -moz-transform: scaleY(1);
-  -o-transform: scaleY(1);
   -ms-transform: scaleY(1);
+  -o-transform: scaleY(1);
   transform: scaleY(1);
-  -webkit-transition: all 0.7s ease-in-out;
-  -moz-transition: all 0.7s ease-in-out;
-  -o-transition: all 0.7s ease-in-out;
-  -ms-transition: all 0.7s ease-in-out;
-  transition: all 0.7s ease-in-out;
+  -webkit-transition: all ease-in-out;
+  -webkit-transition-delay: 0.6s;
+  -moz-transition: all ease-in-out 0.6s;
+  -o-transition: all ease-in-out 0.6s;
+  transition: all ease-in-out 0.6s;
 }
-/* line 74, ../components/sass/imports/_plugins.scss */
+/* line 53, ../components/sass/imports/_plugins.scss */
 .member-effect .mask {
   background-color: #f1c40f;
-  -webkit-transition: all 0.5s linear;
-  -moz-transition: all 0.5s linear;
-  -o-transition: all 0.5s linear;
-  -ms-transition: all 0.5s linear;
-  transition: all 0.5s linear;
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   opacity: 0;
+  -webkit-transition: linear all;
+  -webkit-transition-delay: 0.5s;
+  -moz-transition: linear all 0.5s;
+  -o-transition: linear all 0.5s;
+  transition: linear all 0.5s;
 }
-/* line 85, ../components/sass/imports/_plugins.scss */
+/* line 60, ../components/sass/imports/_plugins.scss */
 .member-effect h2 {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   background: transparent;
-  -webkit-transform: scale(0);
-  -moz-transform: scale(0);
-  -o-transform: scale(0);
-  -ms-transform: scale(0);
-  transform: scale(0);
-  color: #333;
-  -webkit-transition: all 0.5s linear;
-  -moz-transition: all 0.5s linear;
-  -o-transition: all 0.5s linear;
-  -ms-transition: all 0.5s linear;
-  transition: all 0.5s linear;
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   opacity: 0;
+  -webkit-transform: scale(0, 0);
+  -moz-transform: scale(0, 0);
+  -ms-transform: scale(0, 0);
+  -o-transform: scale(0, 0);
+  transform: scale(0, 0);
+  -webkit-transition: linear all;
+  -webkit-transition-delay: 0.3s;
+  -moz-transition: linear all 0.3s;
+  -o-transition: linear all 0.3s;
+  transition: linear all 0.3s;
 }
-/* line 104, ../components/sass/imports/_plugins.scss */
+/* line 68, ../components/sass/imports/_plugins.scss */
 .member-effect p {
   color: #333;
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   opacity: 0;
-  -webkit-transform: scale(0);
-  -moz-transform: scale(0);
-  -o-transform: scale(0);
-  -ms-transform: scale(0);
-  transform: scale(0);
-  -webkit-transition: all 0.5s linear;
-  -moz-transition: all 0.5s linear;
-  -o-transition: all 0.5s linear;
-  -ms-transition: all 0.5s linear;
-  transition: all 0.5s linear;
+  -webkit-transform: scale(0, 0);
+  -moz-transform: scale(0, 0);
+  -ms-transform: scale(0, 0);
+  -o-transform: scale(0, 0);
+  transform: scale(0, 0);
+  -webkit-transition: linear all;
+  -webkit-transition-delay: 0.3s;
+  -moz-transition: linear all 0.3s;
+  -o-transition: linear all 0.3s;
+  transition: linear all 0.3s;
 }
-/* line 120, ../components/sass/imports/_plugins.scss */
-.member-effect a.info {
-  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
-  opacity: 0;
-  -webkit-transform: scale(0);
-  -moz-transform: scale(0);
-  -o-transform: scale(0);
-  -ms-transform: scale(0);
-  transform: scale(0);
-  -webkit-transition: all 0.5s linear;
-  -moz-transition: all 0.5s linear;
-  -o-transition: all 0.5s linear;
-  -ms-transition: all 0.5s linear;
-  transition: all 0.5s linear;
-}
-/* line 136, ../components/sass/imports/_plugins.scss */
+/* line 77, ../components/sass/imports/_plugins.scss */
 .member-effect:hover img {
   overflow: hidden;
-  -webkit-transform: scale(10);
-  -moz-transform: scale(10);
-  -o-transform: scale(10);
-  -ms-transform: scale(10);
-  transform: scale(10);
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   opacity: 0;
+  -webkit-transform: scale(10, 10);
+  -moz-transform: scale(10, 10);
+  -ms-transform: scale(10, 10);
+  -o-transform: scale(10, 10);
+  transform: scale(10, 10);
 }
-/* line 147, ../components/sass/imports/_plugins.scss */
+/* line 84, ../components/sass/imports/_plugins.scss */
 .member-effect:hover .mask {
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=100);
   opacity: 1;
 }
-/* line 152, ../components/sass/imports/_plugins.scss */
-.member-effect:hover h2, .member-effect:hover p, .member-effect:hover a.info {
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -o-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
+/* line 89, ../components/sass/imports/_plugins.scss */
+.member-effect:hover h2, .member-effect:hover p, .member-effect:hover a {
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=100);
   opacity: 1;
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  transform: scale(1, 1);
 }
 
 /* line 4, ../components/sass/imports/_basic.scss */
@@ -8128,29 +8096,52 @@ p {
 .team section .team-green {
   background-color: #1bbc9d;
 }
+/* line 210, ../components/sass/imports/_basic.scss */
+.team section .team-yellow {
+  background-color: #f1c40f;
+}
+/* line 213, ../components/sass/imports/_basic.scss */
+.team section h2 {
+  color: #2d3e50;
+}
+/* line 215, ../components/sass/imports/_basic.scss */
+.team section h2:hover {
+  color: #f9f9f9;
+}
 
-/* line 212, ../components/sass/imports/_basic.scss */
-.team header {
+/* line 222, ../components/sass/imports/_basic.scss */
+.team section footer {
+  text-align: center;
+  background-color: #3598dc;
+}
+/* line 225, ../components/sass/imports/_basic.scss */
+.team section footer h3 {
+  padding: 20px 0;
+  color: #f9f9f9;
+}
+
+/* line 231, ../components/sass/imports/_basic.scss */
+.team-intro {
   text-align: center;
 }
-/* line 214, ../components/sass/imports/_basic.scss */
-.team header h1 {
+/* line 233, ../components/sass/imports/_basic.scss */
+.team-intro h1 {
   color: #1bbc9d;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
-/* line 217, ../components/sass/imports/_basic.scss */
-.team header h1:before {
+/* line 236, ../components/sass/imports/_basic.scss */
+.team-intro h1:before {
   z-index: -1;
-  content: url(../img/line_green.png);
+  content: url(../img/Line_green.png);
   float: left;
   position: relative;
   bottom: 15px;
   left: 35px;
 }
-/* line 225, ../components/sass/imports/_basic.scss */
-.team header h1:after {
+/* line 244, ../components/sass/imports/_basic.scss */
+.team-intro h1:after {
   z-index: -1;
-  content: url(../img/line_green.png);
+  content: url(../img/Line_green.png);
   float: right;
   position: relative;
   bottom: 15px;
