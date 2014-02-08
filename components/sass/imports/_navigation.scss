@@ -9,7 +9,7 @@
 }
 
 nav {
-	z-index: 99;// Make sure z-index is a lot
+	z-index: 999;// Make sure z-index is a lot
 	@include gridle(12);
 	text-align: center;
 	li {

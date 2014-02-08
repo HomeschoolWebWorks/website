@@ -2212,11 +2212,11 @@
 }
 
 /* line 232, ../components/sass/grid/gridle/_gridle.scss */
-.gridle-debug .grid-0, .grid-0.gridle-debug, .gridle-debug .grid-mobile-0, .grid-mobile-0.gridle-debug, .gridle-debug .grid-tablet-0, .grid-tablet-0.gridle-debug, .gridle-debug .grid-ipad-landscape-0, .grid-ipad-landscape-0.gridle-debug, .gridle-debug .grid-1, .grid-1.gridle-debug, .gridle-debug .grid-mobile-1, .grid-mobile-1.gridle-debug, .gridle-debug .grid-tablet-1, .grid-tablet-1.gridle-debug, .gridle-debug .grid-ipad-landscape-1, .grid-ipad-landscape-1.gridle-debug, .gridle-debug .grid-2, .grid-2.gridle-debug, .gridle-debug .grid-mobile-2, .grid-mobile-2.gridle-debug, .gridle-debug .grid-tablet-2, .grid-tablet-2.gridle-debug, .gridle-debug .grid-ipad-landscape-2, .grid-ipad-landscape-2.gridle-debug, .gridle-debug .grid-3, .grid-3.gridle-debug, .gridle-debug .grid-mobile-3, .grid-mobile-3.gridle-debug, .gridle-debug .grid-tablet-3, .grid-tablet-3.gridle-debug, .gridle-debug .grid-ipad-landscape-3, .grid-ipad-landscape-3.gridle-debug, .gridle-debug .grid-4, .grid-4.gridle-debug, .gridle-debug .grid-mobile-4, .grid-mobile-4.gridle-debug, .gridle-debug .grid-tablet-4, .grid-tablet-4.gridle-debug, .gridle-debug .grid-ipad-landscape-4, .grid-ipad-landscape-4.gridle-debug, .gridle-debug .grid-5, .grid-5.gridle-debug, .gridle-debug .grid-mobile-5, .grid-mobile-5.gridle-debug, .gridle-debug .grid-tablet-5, .grid-tablet-5.gridle-debug, .gridle-debug .grid-ipad-landscape-5, .grid-ipad-landscape-5.gridle-debug, .gridle-debug .grid-6, .grid-6.gridle-debug, .gridle-debug .grid-mobile-6, .grid-mobile-6.gridle-debug, .gridle-debug .grid-tablet-6, .grid-tablet-6.gridle-debug, .gridle-debug .grid-ipad-landscape-6, .grid-ipad-landscape-6.gridle-debug, .gridle-debug .grid-7, .grid-7.gridle-debug, .gridle-debug .grid-mobile-7, .grid-mobile-7.gridle-debug, .gridle-debug .grid-tablet-7, .grid-tablet-7.gridle-debug, .gridle-debug .grid-ipad-landscape-7, .grid-ipad-landscape-7.gridle-debug, .gridle-debug .grid-8, .grid-8.gridle-debug, .gridle-debug .grid-mobile-8, .grid-mobile-8.gridle-debug, .gridle-debug .grid-tablet-8, .grid-tablet-8.gridle-debug, .gridle-debug .grid-ipad-landscape-8, .grid-ipad-landscape-8.gridle-debug, .gridle-debug .grid-9, .grid-9.gridle-debug, .gridle-debug .grid-mobile-9, .grid-mobile-9.gridle-debug, .gridle-debug .grid-tablet-9, .grid-tablet-9.gridle-debug, .gridle-debug .grid-ipad-landscape-9, .grid-ipad-landscape-9.gridle-debug, .gridle-debug .grid-10, .grid-10.gridle-debug, .gridle-debug .grid-mobile-10, .grid-mobile-10.gridle-debug, .gridle-debug .grid-tablet-10, .grid-tablet-10.gridle-debug, .gridle-debug .grid-ipad-landscape-10, .grid-ipad-landscape-10.gridle-debug, .gridle-debug .grid-11, .grid-11.gridle-debug, .gridle-debug .grid-mobile-11, .grid-mobile-11.gridle-debug, .gridle-debug .grid-tablet-11, .grid-tablet-11.gridle-debug, .gridle-debug .grid-ipad-landscape-11, .grid-ipad-landscape-11.gridle-debug, .gridle-debug .grid-12, .grid-12.gridle-debug, .gridle-debug .grid-mobile-12, .grid-mobile-12.gridle-debug, .gridle-debug .grid-tablet-12, .grid-tablet-12.gridle-debug, .gridle-debug .grid-ipad-landscape-12, .grid-ipad-landscape-12.gridle-debug, .gridle-debug .about, .about.gridle-debug, .gridle-debug .about section, .about section.gridle-debug, .gridle-debug .skills .main-section, .skills .main-section.gridle-debug, .gridle-debug .team, .team.gridle-debug, .gridle-debug .team section, .team section.gridle-debug, .gridle-debug nav, nav.gridle-debug {
+.gridle-debug .grid-0, .grid-0.gridle-debug, .gridle-debug .grid-mobile-0, .grid-mobile-0.gridle-debug, .gridle-debug .grid-tablet-0, .grid-tablet-0.gridle-debug, .gridle-debug .grid-ipad-landscape-0, .grid-ipad-landscape-0.gridle-debug, .gridle-debug .grid-1, .grid-1.gridle-debug, .gridle-debug .grid-mobile-1, .grid-mobile-1.gridle-debug, .gridle-debug .grid-tablet-1, .grid-tablet-1.gridle-debug, .gridle-debug .grid-ipad-landscape-1, .grid-ipad-landscape-1.gridle-debug, .gridle-debug .grid-2, .grid-2.gridle-debug, .gridle-debug .grid-mobile-2, .grid-mobile-2.gridle-debug, .gridle-debug .grid-tablet-2, .grid-tablet-2.gridle-debug, .gridle-debug .grid-ipad-landscape-2, .grid-ipad-landscape-2.gridle-debug, .gridle-debug .grid-3, .grid-3.gridle-debug, .gridle-debug .grid-mobile-3, .grid-mobile-3.gridle-debug, .gridle-debug .grid-tablet-3, .grid-tablet-3.gridle-debug, .gridle-debug .grid-ipad-landscape-3, .grid-ipad-landscape-3.gridle-debug, .gridle-debug .grid-4, .grid-4.gridle-debug, .gridle-debug .grid-mobile-4, .grid-mobile-4.gridle-debug, .gridle-debug .grid-tablet-4, .grid-tablet-4.gridle-debug, .gridle-debug .grid-ipad-landscape-4, .grid-ipad-landscape-4.gridle-debug, .gridle-debug .grid-5, .grid-5.gridle-debug, .gridle-debug .grid-mobile-5, .grid-mobile-5.gridle-debug, .gridle-debug .grid-tablet-5, .grid-tablet-5.gridle-debug, .gridle-debug .grid-ipad-landscape-5, .grid-ipad-landscape-5.gridle-debug, .gridle-debug .grid-6, .grid-6.gridle-debug, .gridle-debug .grid-mobile-6, .grid-mobile-6.gridle-debug, .gridle-debug .grid-tablet-6, .grid-tablet-6.gridle-debug, .gridle-debug .grid-ipad-landscape-6, .grid-ipad-landscape-6.gridle-debug, .gridle-debug .grid-7, .grid-7.gridle-debug, .gridle-debug .grid-mobile-7, .grid-mobile-7.gridle-debug, .gridle-debug .grid-tablet-7, .grid-tablet-7.gridle-debug, .gridle-debug .grid-ipad-landscape-7, .grid-ipad-landscape-7.gridle-debug, .gridle-debug .grid-8, .grid-8.gridle-debug, .gridle-debug .grid-mobile-8, .grid-mobile-8.gridle-debug, .gridle-debug .grid-tablet-8, .grid-tablet-8.gridle-debug, .gridle-debug .grid-ipad-landscape-8, .grid-ipad-landscape-8.gridle-debug, .gridle-debug .grid-9, .grid-9.gridle-debug, .gridle-debug .grid-mobile-9, .grid-mobile-9.gridle-debug, .gridle-debug .grid-tablet-9, .grid-tablet-9.gridle-debug, .gridle-debug .grid-ipad-landscape-9, .grid-ipad-landscape-9.gridle-debug, .gridle-debug .grid-10, .grid-10.gridle-debug, .gridle-debug .grid-mobile-10, .grid-mobile-10.gridle-debug, .gridle-debug .grid-tablet-10, .grid-tablet-10.gridle-debug, .gridle-debug .grid-ipad-landscape-10, .grid-ipad-landscape-10.gridle-debug, .gridle-debug .grid-11, .grid-11.gridle-debug, .gridle-debug .grid-mobile-11, .grid-mobile-11.gridle-debug, .gridle-debug .grid-tablet-11, .grid-tablet-11.gridle-debug, .gridle-debug .grid-ipad-landscape-11, .grid-ipad-landscape-11.gridle-debug, .gridle-debug .grid-12, .grid-12.gridle-debug, .gridle-debug .grid-mobile-12, .grid-mobile-12.gridle-debug, .gridle-debug .grid-tablet-12, .grid-tablet-12.gridle-debug, .gridle-debug .grid-ipad-landscape-12, .grid-ipad-landscape-12.gridle-debug, .gridle-debug .about, .about.gridle-debug, .gridle-debug .about section, .about section.gridle-debug, .gridle-debug .skills .main-section, .skills .main-section.gridle-debug, .gridle-debug .team, .team.gridle-debug, .gridle-debug .team section, .team section.gridle-debug, .gridle-debug .portfolio header, .portfolio header.gridle-debug, .gridle-debug .portfolio section, .portfolio section.gridle-debug, .gridle-debug nav, nav.gridle-debug {
   background-color: #daeff5;
 }
 /* line 234, ../components/sass/grid/gridle/_gridle.scss */
-.gridle-debug .grid-0:before, .grid-0.gridle-debug:before, .gridle-debug .grid-mobile-0:before, .grid-mobile-0.gridle-debug:before, .gridle-debug .grid-tablet-0:before, .grid-tablet-0.gridle-debug:before, .gridle-debug .grid-ipad-landscape-0:before, .grid-ipad-landscape-0.gridle-debug:before, .gridle-debug .grid-1:before, .grid-1.gridle-debug:before, .gridle-debug .grid-mobile-1:before, .grid-mobile-1.gridle-debug:before, .gridle-debug .grid-tablet-1:before, .grid-tablet-1.gridle-debug:before, .gridle-debug .grid-ipad-landscape-1:before, .grid-ipad-landscape-1.gridle-debug:before, .gridle-debug .grid-2:before, .grid-2.gridle-debug:before, .gridle-debug .grid-mobile-2:before, .grid-mobile-2.gridle-debug:before, .gridle-debug .grid-tablet-2:before, .grid-tablet-2.gridle-debug:before, .gridle-debug .grid-ipad-landscape-2:before, .grid-ipad-landscape-2.gridle-debug:before, .gridle-debug .grid-3:before, .grid-3.gridle-debug:before, .gridle-debug .grid-mobile-3:before, .grid-mobile-3.gridle-debug:before, .gridle-debug .grid-tablet-3:before, .grid-tablet-3.gridle-debug:before, .gridle-debug .grid-ipad-landscape-3:before, .grid-ipad-landscape-3.gridle-debug:before, .gridle-debug .grid-4:before, .grid-4.gridle-debug:before, .gridle-debug .grid-mobile-4:before, .grid-mobile-4.gridle-debug:before, .gridle-debug .grid-tablet-4:before, .grid-tablet-4.gridle-debug:before, .gridle-debug .grid-ipad-landscape-4:before, .grid-ipad-landscape-4.gridle-debug:before, .gridle-debug .grid-5:before, .grid-5.gridle-debug:before, .gridle-debug .grid-mobile-5:before, .grid-mobile-5.gridle-debug:before, .gridle-debug .grid-tablet-5:before, .grid-tablet-5.gridle-debug:before, .gridle-debug .grid-ipad-landscape-5:before, .grid-ipad-landscape-5.gridle-debug:before, .gridle-debug .grid-6:before, .grid-6.gridle-debug:before, .gridle-debug .grid-mobile-6:before, .grid-mobile-6.gridle-debug:before, .gridle-debug .grid-tablet-6:before, .grid-tablet-6.gridle-debug:before, .gridle-debug .grid-ipad-landscape-6:before, .grid-ipad-landscape-6.gridle-debug:before, .gridle-debug .grid-7:before, .grid-7.gridle-debug:before, .gridle-debug .grid-mobile-7:before, .grid-mobile-7.gridle-debug:before, .gridle-debug .grid-tablet-7:before, .grid-tablet-7.gridle-debug:before, .gridle-debug .grid-ipad-landscape-7:before, .grid-ipad-landscape-7.gridle-debug:before, .gridle-debug .grid-8:before, .grid-8.gridle-debug:before, .gridle-debug .grid-mobile-8:before, .grid-mobile-8.gridle-debug:before, .gridle-debug .grid-tablet-8:before, .grid-tablet-8.gridle-debug:before, .gridle-debug .grid-ipad-landscape-8:before, .grid-ipad-landscape-8.gridle-debug:before, .gridle-debug .grid-9:before, .grid-9.gridle-debug:before, .gridle-debug .grid-mobile-9:before, .grid-mobile-9.gridle-debug:before, .gridle-debug .grid-tablet-9:before, .grid-tablet-9.gridle-debug:before, .gridle-debug .grid-ipad-landscape-9:before, .grid-ipad-landscape-9.gridle-debug:before, .gridle-debug .grid-10:before, .grid-10.gridle-debug:before, .gridle-debug .grid-mobile-10:before, .grid-mobile-10.gridle-debug:before, .gridle-debug .grid-tablet-10:before, .grid-tablet-10.gridle-debug:before, .gridle-debug .grid-ipad-landscape-10:before, .grid-ipad-landscape-10.gridle-debug:before, .gridle-debug .grid-11:before, .grid-11.gridle-debug:before, .gridle-debug .grid-mobile-11:before, .grid-mobile-11.gridle-debug:before, .gridle-debug .grid-tablet-11:before, .grid-tablet-11.gridle-debug:before, .gridle-debug .grid-ipad-landscape-11:before, .grid-ipad-landscape-11.gridle-debug:before, .gridle-debug .grid-12:before, .grid-12.gridle-debug:before, .gridle-debug .grid-mobile-12:before, .grid-mobile-12.gridle-debug:before, .gridle-debug .grid-tablet-12:before, .grid-tablet-12.gridle-debug:before, .gridle-debug .grid-ipad-landscape-12:before, .grid-ipad-landscape-12.gridle-debug:before, .gridle-debug .about:before, .about.gridle-debug:before, .gridle-debug .about section:before, .about section.gridle-debug:before, .gridle-debug .skills .main-section:before, .skills .main-section.gridle-debug:before, .gridle-debug .team:before, .team.gridle-debug:before, .gridle-debug .team section:before, .team section.gridle-debug:before, .gridle-debug nav:before, nav.gridle-debug:before, .gridle-debug .grid-0:after, .grid-0.gridle-debug:after, .gridle-debug .grid-mobile-0:after, .grid-mobile-0.gridle-debug:after, .gridle-debug .grid-tablet-0:after, .grid-tablet-0.gridle-debug:after, .gridle-debug .grid-ipad-landscape-0:after, .grid-ipad-landscape-0.gridle-debug:after, .gridle-debug .grid-1:after, .grid-1.gridle-debug:after, .gridle-debug .grid-mobile-1:after, .grid-mobile-1.gridle-debug:after, .gridle-debug .grid-tablet-1:after, .grid-tablet-1.gridle-debug:after, .gridle-debug .grid-ipad-landscape-1:after, .grid-ipad-landscape-1.gridle-debug:after, .gridle-debug .grid-2:after, .grid-2.gridle-debug:after, .gridle-debug .grid-mobile-2:after, .grid-mobile-2.gridle-debug:after, .gridle-debug .grid-tablet-2:after, .grid-tablet-2.gridle-debug:after, .gridle-debug .grid-ipad-landscape-2:after, .grid-ipad-landscape-2.gridle-debug:after, .gridle-debug .grid-3:after, .grid-3.gridle-debug:after, .gridle-debug .grid-mobile-3:after, .grid-mobile-3.gridle-debug:after, .gridle-debug .grid-tablet-3:after, .grid-tablet-3.gridle-debug:after, .gridle-debug .grid-ipad-landscape-3:after, .grid-ipad-landscape-3.gridle-debug:after, .gridle-debug .grid-4:after, .grid-4.gridle-debug:after, .gridle-debug .grid-mobile-4:after, .grid-mobile-4.gridle-debug:after, .gridle-debug .grid-tablet-4:after, .grid-tablet-4.gridle-debug:after, .gridle-debug .grid-ipad-landscape-4:after, .grid-ipad-landscape-4.gridle-debug:after, .gridle-debug .grid-5:after, .grid-5.gridle-debug:after, .gridle-debug .grid-mobile-5:after, .grid-mobile-5.gridle-debug:after, .gridle-debug .grid-tablet-5:after, .grid-tablet-5.gridle-debug:after, .gridle-debug .grid-ipad-landscape-5:after, .grid-ipad-landscape-5.gridle-debug:after, .gridle-debug .grid-6:after, .grid-6.gridle-debug:after, .gridle-debug .grid-mobile-6:after, .grid-mobile-6.gridle-debug:after, .gridle-debug .grid-tablet-6:after, .grid-tablet-6.gridle-debug:after, .gridle-debug .grid-ipad-landscape-6:after, .grid-ipad-landscape-6.gridle-debug:after, .gridle-debug .grid-7:after, .grid-7.gridle-debug:after, .gridle-debug .grid-mobile-7:after, .grid-mobile-7.gridle-debug:after, .gridle-debug .grid-tablet-7:after, .grid-tablet-7.gridle-debug:after, .gridle-debug .grid-ipad-landscape-7:after, .grid-ipad-landscape-7.gridle-debug:after, .gridle-debug .grid-8:after, .grid-8.gridle-debug:after, .gridle-debug .grid-mobile-8:after, .grid-mobile-8.gridle-debug:after, .gridle-debug .grid-tablet-8:after, .grid-tablet-8.gridle-debug:after, .gridle-debug .grid-ipad-landscape-8:after, .grid-ipad-landscape-8.gridle-debug:after, .gridle-debug .grid-9:after, .grid-9.gridle-debug:after, .gridle-debug .grid-mobile-9:after, .grid-mobile-9.gridle-debug:after, .gridle-debug .grid-tablet-9:after, .grid-tablet-9.gridle-debug:after, .gridle-debug .grid-ipad-landscape-9:after, .grid-ipad-landscape-9.gridle-debug:after, .gridle-debug .grid-10:after, .grid-10.gridle-debug:after, .gridle-debug .grid-mobile-10:after, .grid-mobile-10.gridle-debug:after, .gridle-debug .grid-tablet-10:after, .grid-tablet-10.gridle-debug:after, .gridle-debug .grid-ipad-landscape-10:after, .grid-ipad-landscape-10.gridle-debug:after, .gridle-debug .grid-11:after, .grid-11.gridle-debug:after, .gridle-debug .grid-mobile-11:after, .grid-mobile-11.gridle-debug:after, .gridle-debug .grid-tablet-11:after, .grid-tablet-11.gridle-debug:after, .gridle-debug .grid-ipad-landscape-11:after, .grid-ipad-landscape-11.gridle-debug:after, .gridle-debug .grid-12:after, .grid-12.gridle-debug:after, .gridle-debug .grid-mobile-12:after, .grid-mobile-12.gridle-debug:after, .gridle-debug .grid-tablet-12:after, .grid-tablet-12.gridle-debug:after, .gridle-debug .grid-ipad-landscape-12:after, .grid-ipad-landscape-12.gridle-debug:after, .gridle-debug .about:after, .about.gridle-debug:after, .gridle-debug .about section:after, .about section.gridle-debug:after, .gridle-debug .skills .main-section:after, .skills .main-section.gridle-debug:after, .gridle-debug .team:after, .team.gridle-debug:after, .gridle-debug .team section:after, .team section.gridle-debug:after, .gridle-debug nav:after, nav.gridle-debug:after {
+.gridle-debug .grid-0:before, .grid-0.gridle-debug:before, .gridle-debug .grid-mobile-0:before, .grid-mobile-0.gridle-debug:before, .gridle-debug .grid-tablet-0:before, .grid-tablet-0.gridle-debug:before, .gridle-debug .grid-ipad-landscape-0:before, .grid-ipad-landscape-0.gridle-debug:before, .gridle-debug .grid-1:before, .grid-1.gridle-debug:before, .gridle-debug .grid-mobile-1:before, .grid-mobile-1.gridle-debug:before, .gridle-debug .grid-tablet-1:before, .grid-tablet-1.gridle-debug:before, .gridle-debug .grid-ipad-landscape-1:before, .grid-ipad-landscape-1.gridle-debug:before, .gridle-debug .grid-2:before, .grid-2.gridle-debug:before, .gridle-debug .grid-mobile-2:before, .grid-mobile-2.gridle-debug:before, .gridle-debug .grid-tablet-2:before, .grid-tablet-2.gridle-debug:before, .gridle-debug .grid-ipad-landscape-2:before, .grid-ipad-landscape-2.gridle-debug:before, .gridle-debug .grid-3:before, .grid-3.gridle-debug:before, .gridle-debug .grid-mobile-3:before, .grid-mobile-3.gridle-debug:before, .gridle-debug .grid-tablet-3:before, .grid-tablet-3.gridle-debug:before, .gridle-debug .grid-ipad-landscape-3:before, .grid-ipad-landscape-3.gridle-debug:before, .gridle-debug .grid-4:before, .grid-4.gridle-debug:before, .gridle-debug .grid-mobile-4:before, .grid-mobile-4.gridle-debug:before, .gridle-debug .grid-tablet-4:before, .grid-tablet-4.gridle-debug:before, .gridle-debug .grid-ipad-landscape-4:before, .grid-ipad-landscape-4.gridle-debug:before, .gridle-debug .grid-5:before, .grid-5.gridle-debug:before, .gridle-debug .grid-mobile-5:before, .grid-mobile-5.gridle-debug:before, .gridle-debug .grid-tablet-5:before, .grid-tablet-5.gridle-debug:before, .gridle-debug .grid-ipad-landscape-5:before, .grid-ipad-landscape-5.gridle-debug:before, .gridle-debug .grid-6:before, .grid-6.gridle-debug:before, .gridle-debug .grid-mobile-6:before, .grid-mobile-6.gridle-debug:before, .gridle-debug .grid-tablet-6:before, .grid-tablet-6.gridle-debug:before, .gridle-debug .grid-ipad-landscape-6:before, .grid-ipad-landscape-6.gridle-debug:before, .gridle-debug .grid-7:before, .grid-7.gridle-debug:before, .gridle-debug .grid-mobile-7:before, .grid-mobile-7.gridle-debug:before, .gridle-debug .grid-tablet-7:before, .grid-tablet-7.gridle-debug:before, .gridle-debug .grid-ipad-landscape-7:before, .grid-ipad-landscape-7.gridle-debug:before, .gridle-debug .grid-8:before, .grid-8.gridle-debug:before, .gridle-debug .grid-mobile-8:before, .grid-mobile-8.gridle-debug:before, .gridle-debug .grid-tablet-8:before, .grid-tablet-8.gridle-debug:before, .gridle-debug .grid-ipad-landscape-8:before, .grid-ipad-landscape-8.gridle-debug:before, .gridle-debug .grid-9:before, .grid-9.gridle-debug:before, .gridle-debug .grid-mobile-9:before, .grid-mobile-9.gridle-debug:before, .gridle-debug .grid-tablet-9:before, .grid-tablet-9.gridle-debug:before, .gridle-debug .grid-ipad-landscape-9:before, .grid-ipad-landscape-9.gridle-debug:before, .gridle-debug .grid-10:before, .grid-10.gridle-debug:before, .gridle-debug .grid-mobile-10:before, .grid-mobile-10.gridle-debug:before, .gridle-debug .grid-tablet-10:before, .grid-tablet-10.gridle-debug:before, .gridle-debug .grid-ipad-landscape-10:before, .grid-ipad-landscape-10.gridle-debug:before, .gridle-debug .grid-11:before, .grid-11.gridle-debug:before, .gridle-debug .grid-mobile-11:before, .grid-mobile-11.gridle-debug:before, .gridle-debug .grid-tablet-11:before, .grid-tablet-11.gridle-debug:before, .gridle-debug .grid-ipad-landscape-11:before, .grid-ipad-landscape-11.gridle-debug:before, .gridle-debug .grid-12:before, .grid-12.gridle-debug:before, .gridle-debug .grid-mobile-12:before, .grid-mobile-12.gridle-debug:before, .gridle-debug .grid-tablet-12:before, .grid-tablet-12.gridle-debug:before, .gridle-debug .grid-ipad-landscape-12:before, .grid-ipad-landscape-12.gridle-debug:before, .gridle-debug .about:before, .about.gridle-debug:before, .gridle-debug .about section:before, .about section.gridle-debug:before, .gridle-debug .skills .main-section:before, .skills .main-section.gridle-debug:before, .gridle-debug .team:before, .team.gridle-debug:before, .gridle-debug .team section:before, .team section.gridle-debug:before, .gridle-debug .portfolio header:before, .portfolio header.gridle-debug:before, .gridle-debug .portfolio section:before, .portfolio section.gridle-debug:before, .gridle-debug nav:before, nav.gridle-debug:before, .gridle-debug .grid-0:after, .grid-0.gridle-debug:after, .gridle-debug .grid-mobile-0:after, .grid-mobile-0.gridle-debug:after, .gridle-debug .grid-tablet-0:after, .grid-tablet-0.gridle-debug:after, .gridle-debug .grid-ipad-landscape-0:after, .grid-ipad-landscape-0.gridle-debug:after, .gridle-debug .grid-1:after, .grid-1.gridle-debug:after, .gridle-debug .grid-mobile-1:after, .grid-mobile-1.gridle-debug:after, .gridle-debug .grid-tablet-1:after, .grid-tablet-1.gridle-debug:after, .gridle-debug .grid-ipad-landscape-1:after, .grid-ipad-landscape-1.gridle-debug:after, .gridle-debug .grid-2:after, .grid-2.gridle-debug:after, .gridle-debug .grid-mobile-2:after, .grid-mobile-2.gridle-debug:after, .gridle-debug .grid-tablet-2:after, .grid-tablet-2.gridle-debug:after, .gridle-debug .grid-ipad-landscape-2:after, .grid-ipad-landscape-2.gridle-debug:after, .gridle-debug .grid-3:after, .grid-3.gridle-debug:after, .gridle-debug .grid-mobile-3:after, .grid-mobile-3.gridle-debug:after, .gridle-debug .grid-tablet-3:after, .grid-tablet-3.gridle-debug:after, .gridle-debug .grid-ipad-landscape-3:after, .grid-ipad-landscape-3.gridle-debug:after, .gridle-debug .grid-4:after, .grid-4.gridle-debug:after, .gridle-debug .grid-mobile-4:after, .grid-mobile-4.gridle-debug:after, .gridle-debug .grid-tablet-4:after, .grid-tablet-4.gridle-debug:after, .gridle-debug .grid-ipad-landscape-4:after, .grid-ipad-landscape-4.gridle-debug:after, .gridle-debug .grid-5:after, .grid-5.gridle-debug:after, .gridle-debug .grid-mobile-5:after, .grid-mobile-5.gridle-debug:after, .gridle-debug .grid-tablet-5:after, .grid-tablet-5.gridle-debug:after, .gridle-debug .grid-ipad-landscape-5:after, .grid-ipad-landscape-5.gridle-debug:after, .gridle-debug .grid-6:after, .grid-6.gridle-debug:after, .gridle-debug .grid-mobile-6:after, .grid-mobile-6.gridle-debug:after, .gridle-debug .grid-tablet-6:after, .grid-tablet-6.gridle-debug:after, .gridle-debug .grid-ipad-landscape-6:after, .grid-ipad-landscape-6.gridle-debug:after, .gridle-debug .grid-7:after, .grid-7.gridle-debug:after, .gridle-debug .grid-mobile-7:after, .grid-mobile-7.gridle-debug:after, .gridle-debug .grid-tablet-7:after, .grid-tablet-7.gridle-debug:after, .gridle-debug .grid-ipad-landscape-7:after, .grid-ipad-landscape-7.gridle-debug:after, .gridle-debug .grid-8:after, .grid-8.gridle-debug:after, .gridle-debug .grid-mobile-8:after, .grid-mobile-8.gridle-debug:after, .gridle-debug .grid-tablet-8:after, .grid-tablet-8.gridle-debug:after, .gridle-debug .grid-ipad-landscape-8:after, .grid-ipad-landscape-8.gridle-debug:after, .gridle-debug .grid-9:after, .grid-9.gridle-debug:after, .gridle-debug .grid-mobile-9:after, .grid-mobile-9.gridle-debug:after, .gridle-debug .grid-tablet-9:after, .grid-tablet-9.gridle-debug:after, .gridle-debug .grid-ipad-landscape-9:after, .grid-ipad-landscape-9.gridle-debug:after, .gridle-debug .grid-10:after, .grid-10.gridle-debug:after, .gridle-debug .grid-mobile-10:after, .grid-mobile-10.gridle-debug:after, .gridle-debug .grid-tablet-10:after, .grid-tablet-10.gridle-debug:after, .gridle-debug .grid-ipad-landscape-10:after, .grid-ipad-landscape-10.gridle-debug:after, .gridle-debug .grid-11:after, .grid-11.gridle-debug:after, .gridle-debug .grid-mobile-11:after, .grid-mobile-11.gridle-debug:after, .gridle-debug .grid-tablet-11:after, .grid-tablet-11.gridle-debug:after, .gridle-debug .grid-ipad-landscape-11:after, .grid-ipad-landscape-11.gridle-debug:after, .gridle-debug .grid-12:after, .grid-12.gridle-debug:after, .gridle-debug .grid-mobile-12:after, .grid-mobile-12.gridle-debug:after, .gridle-debug .grid-tablet-12:after, .grid-tablet-12.gridle-debug:after, .gridle-debug .grid-ipad-landscape-12:after, .grid-ipad-landscape-12.gridle-debug:after, .gridle-debug .about:after, .about.gridle-debug:after, .gridle-debug .about section:after, .about section.gridle-debug:after, .gridle-debug .skills .main-section:after, .skills .main-section.gridle-debug:after, .gridle-debug .team:after, .team.gridle-debug:after, .gridle-debug .team section:after, .team section.gridle-debug:after, .gridle-debug .portfolio header:after, .portfolio header.gridle-debug:after, .gridle-debug .portfolio section:after, .portfolio section.gridle-debug:after, .gridle-debug nav:after, nav.gridle-debug:after {
   content: "";
   display: block;
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDowRkEzNzVFNTg1NjgxMUUyOUI4RjhEMzg4QzM4QjZFOCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDowRkEzNzVFNjg1NjgxMUUyOUI4RjhEMzg4QzM4QjZFOCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjBGQTM3NUUzODU2ODExRTI5QjhGOEQzODhDMzhCNkU4IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjBGQTM3NUU0ODU2ODExRTI5QjhGOEQzODhDMzhCNkU4Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8++5+BhQAAAA9JREFUeNpiYGBgkAIIMAAAHwAbZIBtGgAAAABJRU5ErkJggg==);
@@ -2232,7 +2232,7 @@
 }
 
 /* line 250, ../components/sass/grid/gridle/_gridle.scss */
-.grid-0, .grid-mobile-0, .grid-tablet-0, .grid-ipad-landscape-0, .grid-1, .grid-mobile-1, .grid-tablet-1, .grid-ipad-landscape-1, .grid-2, .grid-mobile-2, .grid-tablet-2, .grid-ipad-landscape-2, .grid-3, .grid-mobile-3, .grid-tablet-3, .grid-ipad-landscape-3, .grid-4, .grid-mobile-4, .grid-tablet-4, .grid-ipad-landscape-4, .grid-5, .grid-mobile-5, .grid-tablet-5, .grid-ipad-landscape-5, .grid-6, .grid-mobile-6, .grid-tablet-6, .grid-ipad-landscape-6, .grid-7, .grid-mobile-7, .grid-tablet-7, .grid-ipad-landscape-7, .grid-8, .grid-mobile-8, .grid-tablet-8, .grid-ipad-landscape-8, .grid-9, .grid-mobile-9, .grid-tablet-9, .grid-ipad-landscape-9, .grid-10, .grid-mobile-10, .grid-tablet-10, .grid-ipad-landscape-10, .grid-11, .grid-mobile-11, .grid-tablet-11, .grid-ipad-landscape-11, .grid-12, .grid-mobile-12, .grid-tablet-12, .grid-ipad-landscape-12, .about, .about section, .skills .main-section, .team, .team section, nav {
+.grid-0, .grid-mobile-0, .grid-tablet-0, .grid-ipad-landscape-0, .grid-1, .grid-mobile-1, .grid-tablet-1, .grid-ipad-landscape-1, .grid-2, .grid-mobile-2, .grid-tablet-2, .grid-ipad-landscape-2, .grid-3, .grid-mobile-3, .grid-tablet-3, .grid-ipad-landscape-3, .grid-4, .grid-mobile-4, .grid-tablet-4, .grid-ipad-landscape-4, .grid-5, .grid-mobile-5, .grid-tablet-5, .grid-ipad-landscape-5, .grid-6, .grid-mobile-6, .grid-tablet-6, .grid-ipad-landscape-6, .grid-7, .grid-mobile-7, .grid-tablet-7, .grid-ipad-landscape-7, .grid-8, .grid-mobile-8, .grid-tablet-8, .grid-ipad-landscape-8, .grid-9, .grid-mobile-9, .grid-tablet-9, .grid-ipad-landscape-9, .grid-10, .grid-mobile-10, .grid-tablet-10, .grid-ipad-landscape-10, .grid-11, .grid-mobile-11, .grid-tablet-11, .grid-ipad-landscape-11, .grid-12, .grid-mobile-12, .grid-tablet-12, .grid-ipad-landscape-12, .about, .about section, .skills .main-section, .team, .team section, .portfolio header, .portfolio section, nav {
   display: inline-block;
   min-height: 1px;
   -webkit-box-sizing: border-box;
@@ -7675,9 +7675,9 @@ html.ipad-landscape .parent-ipad-landscape {
 /* line 10, ../components/sass/imports/_plugins.scss */
 .teammate {
   overflow: hidden;
-  position: relative;
   text-align: center;
   cursor: default;
+  position: relative;
 }
 /* line 15, ../components/sass/imports/_plugins.scss */
 .teammate .mask, .teammate .content {
@@ -7690,11 +7690,12 @@ html.ipad-landscape .parent-ipad-landscape {
 }
 /* line 23, ../components/sass/imports/_plugins.scss */
 .teammate img {
+  z-index: -10;
   display: block;
   position: relative;
   width: 100%;
 }
-/* line 28, ../components/sass/imports/_plugins.scss */
+/* line 29, ../components/sass/imports/_plugins.scss */
 .teammate h2 {
   text-transform: uppercase;
   color: #2d3e50;
@@ -7704,7 +7705,7 @@ html.ipad-landscape .parent-ipad-landscape {
   background: rgba(0, 0, 0, 0.8);
   font-size: 1.5em;
 }
-/* line 37, ../components/sass/imports/_plugins.scss */
+/* line 38, ../components/sass/imports/_plugins.scss */
 .teammate p {
   font-family: 'Abel', sans-serif;
   font-size: 16px;
@@ -7715,7 +7716,7 @@ html.ipad-landscape .parent-ipad-landscape {
   font-weight: 600;
 }
 
-/* line 48, ../components/sass/imports/_plugins.scss */
+/* line 49, ../components/sass/imports/_plugins.scss */
 .member-effect img {
   -webkit-transform: scaleY(1);
   -moz-transform: scaleY(1);
@@ -7728,8 +7729,9 @@ html.ipad-landscape .parent-ipad-landscape {
   -o-transition: all ease-in-out 0.6s;
   transition: all ease-in-out 0.6s;
 }
-/* line 53, ../components/sass/imports/_plugins.scss */
+/* line 54, ../components/sass/imports/_plugins.scss */
 .member-effect .mask {
+  z-index: -10;
   background-color: #f1c40f;
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
@@ -7740,7 +7742,7 @@ html.ipad-landscape .parent-ipad-landscape {
   -o-transition: linear all 0.5s;
   transition: linear all 0.5s;
 }
-/* line 60, ../components/sass/imports/_plugins.scss */
+/* line 62, ../components/sass/imports/_plugins.scss */
 .member-effect h2 {
   background: transparent;
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -7757,7 +7759,7 @@ html.ipad-landscape .parent-ipad-landscape {
   -o-transition: linear all 0.3s;
   transition: linear all 0.3s;
 }
-/* line 68, ../components/sass/imports/_plugins.scss */
+/* line 70, ../components/sass/imports/_plugins.scss */
 .member-effect p {
   color: #333;
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -7774,7 +7776,7 @@ html.ipad-landscape .parent-ipad-landscape {
   -o-transition: linear all 0.3s;
   transition: linear all 0.3s;
 }
-/* line 77, ../components/sass/imports/_plugins.scss */
+/* line 79, ../components/sass/imports/_plugins.scss */
 .member-effect:hover img {
   overflow: hidden;
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -7786,13 +7788,13 @@ html.ipad-landscape .parent-ipad-landscape {
   -o-transform: scale(10, 10);
   transform: scale(10, 10);
 }
-/* line 84, ../components/sass/imports/_plugins.scss */
+/* line 86, ../components/sass/imports/_plugins.scss */
 .member-effect:hover .mask {
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=100);
   opacity: 1;
 }
-/* line 89, ../components/sass/imports/_plugins.scss */
+/* line 91, ../components/sass/imports/_plugins.scss */
 .member-effect:hover h2, .member-effect:hover p, .member-effect:hover a {
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=100);
@@ -8051,11 +8053,15 @@ p {
 
 /*-----  End of Skills  ------*/
 /*============================
-=            Team            = // Currently Being Worked On by: Micaiah
+=            Team            = // Complete, just needs content.
 ============================*/
+/* line 192, ../components/sass/imports/_basic.scss */
+.team-bg {
+  margin-top: 50px;
+}
+
 /* line 196, ../components/sass/imports/_basic.scss */
 .team {
-  margin-top: 50px;
   float: left;
   direction: ltr;
   padding: 0 10px;
@@ -8071,7 +8077,7 @@ p {
   content: "grid-parent--12";
 }
 
-/* line 201, ../components/sass/imports/_basic.scss */
+/* line 200, ../components/sass/imports/_basic.scss */
 .team section {
   float: left;
   direction: ltr;
@@ -8088,48 +8094,48 @@ p {
 .gridle-debug .team section.parent:before, .team section.gridle-debug.parent:before {
   content: "grid-parent--4";
 }
-/* line 204, ../components/sass/imports/_basic.scss */
+/* line 203, ../components/sass/imports/_basic.scss */
 .team section .team-blue {
   background-color: #3598dc;
 }
-/* line 207, ../components/sass/imports/_basic.scss */
+/* line 206, ../components/sass/imports/_basic.scss */
 .team section .team-green {
   background-color: #1bbc9d;
 }
-/* line 210, ../components/sass/imports/_basic.scss */
+/* line 209, ../components/sass/imports/_basic.scss */
 .team section .team-yellow {
   background-color: #f1c40f;
 }
-/* line 213, ../components/sass/imports/_basic.scss */
+/* line 212, ../components/sass/imports/_basic.scss */
 .team section h2 {
   color: #2d3e50;
 }
-/* line 215, ../components/sass/imports/_basic.scss */
+/* line 214, ../components/sass/imports/_basic.scss */
 .team section h2:hover {
   color: #f9f9f9;
 }
 
-/* line 222, ../components/sass/imports/_basic.scss */
+/* line 221, ../components/sass/imports/_basic.scss */
 .team section footer {
   text-align: center;
   background-color: #3598dc;
 }
-/* line 225, ../components/sass/imports/_basic.scss */
+/* line 224, ../components/sass/imports/_basic.scss */
 .team section footer h3 {
   padding: 20px 0;
   color: #f9f9f9;
 }
 
-/* line 231, ../components/sass/imports/_basic.scss */
+/* line 230, ../components/sass/imports/_basic.scss */
 .team-intro {
   text-align: center;
 }
-/* line 233, ../components/sass/imports/_basic.scss */
+/* line 232, ../components/sass/imports/_basic.scss */
 .team-intro h1 {
   color: #1bbc9d;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
-/* line 236, ../components/sass/imports/_basic.scss */
+/* line 235, ../components/sass/imports/_basic.scss */
 .team-intro h1:before {
   z-index: -1;
   content: url(../img/Line_green.png);
@@ -8138,7 +8144,7 @@ p {
   bottom: 15px;
   left: 35px;
 }
-/* line 244, ../components/sass/imports/_basic.scss */
+/* line 243, ../components/sass/imports/_basic.scss */
 .team-intro h1:after {
   z-index: -1;
   content: url(../img/Line_green.png);
@@ -8149,6 +8155,135 @@ p {
 }
 
 /*-----  End of Team  ------*/
+/*=================================
+=            Portfolio            =
+=================================*/
+/* line 261, ../components/sass/imports/_basic.scss */
+.portfolio-bg {
+  margin-top: 75px;
+  width: 100%;
+  background: white url(../img/port-bg.png) fixed repeat;
+  width: 100%;
+  padding: 60px 0 60px 0;
+}
+
+/* line 270, ../components/sass/imports/_basic.scss */
+.portfolio header {
+  text-align: center;
+  float: left;
+  direction: ltr;
+  padding: 0 10px;
+  width: 100%;
+  *width: expression((this.parentNode.clientWidth/12*12 - parseInt(this.currentStyle['paddingLeft']) - parseInt(this.currentStyle['paddingRight'])) + 'px');
+  margin-bottom: 30px;
+}
+/* line 888, ../components/sass/grid/gridle/_gridle.scss */
+.gridle-debug .portfolio header:before, .portfolio header.gridle-debug:before {
+  content: "grid--12";
+}
+/* line 891, ../components/sass/grid/gridle/_gridle.scss */
+.gridle-debug .portfolio header.parent:before, .portfolio header.gridle-debug.parent:before {
+  content: "grid-parent--12";
+}
+/* line 275, ../components/sass/imports/_basic.scss */
+.portfolio section {
+  margin: 10px;
+  float: left;
+  direction: ltr;
+  padding: 0 10px;
+  width: 25%;
+  *width: expression((this.parentNode.clientWidth/12*3 - parseInt(this.currentStyle['paddingLeft']) - parseInt(this.currentStyle['paddingRight'])) + 'px');
+  width: 300px;
+  height: 168px;
+  background: #f9f9f9 url(../img/item_thumb.jpg) center no-repeat;
+}
+/* line 888, ../components/sass/grid/gridle/_gridle.scss */
+.gridle-debug .portfolio section:before, .portfolio section.gridle-debug:before {
+  content: "grid--3";
+}
+/* line 891, ../components/sass/grid/gridle/_gridle.scss */
+.gridle-debug .portfolio section.parent:before, .portfolio section.gridle-debug.parent:before {
+  content: "grid-parent--3";
+}
+/* line 281, ../components/sass/imports/_basic.scss */
+.portfolio section:hover {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+/* line 283, ../components/sass/imports/_basic.scss */
+.portfolio section:hover .fa-plus-circle {
+  opacity: 0.8;
+  margin-left: 80px;
+}
+/* line 287, ../components/sass/imports/_basic.scss */
+.portfolio section:hover .fa-external-link {
+  opacity: 0.8;
+  margin-left: 10px;
+  transition-delay: 0.1s;
+}
+/* line 292, ../components/sass/imports/_basic.scss */
+.portfolio section:hover .fa-star {
+  opacity: 0.8;
+  margin-left: 10px;
+  transition-delay: 0.2s;
+}
+
+/* line 301, ../components/sass/imports/_basic.scss */
+.portfolio section .fa, .portfolio section .masthead a, .masthead .portfolio section a {
+  margin-top: 70px;
+  margin-left: 0;
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  color: #9c59b8;
+}
+/* line 307, ../components/sass/imports/_basic.scss */
+.portfolio section .fa:hover, .portfolio section .masthead a:hover, .masthead .portfolio section a:hover {
+  opacity: 1;
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  transform: rotate(15deg);
+}
+
+/* line 313, ../components/sass/imports/_basic.scss */
+.portfolio section .fa-plus-circle {
+  color: #e84c3d;
+}
+
+/* line 317, ../components/sass/imports/_basic.scss */
+.portfolio section .fa-star {
+  color: #f49c14;
+}
+
+/* line 322, ../components/sass/imports/_basic.scss */
+.portfolio h1 {
+  color: #9c59b8;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+/* line 325, ../components/sass/imports/_basic.scss */
+.portfolio h1:before {
+  content: url(../img/line_purple.png);
+  float: left;
+  position: relative;
+  bottom: 15px;
+  left: 35px;
+}
+/* line 332, ../components/sass/imports/_basic.scss */
+.portfolio h1:after {
+  content: url(../img/line_purple.png);
+  float: right;
+  position: relative;
+  bottom: 15px;
+  right: 35px;
+}
+
+/*-----  End of Portfolio  ------*/
 /* line 4, ../components/sass/imports/_masthead.scss */
 .masthead {
   width: 100%;
@@ -8291,7 +8426,7 @@ p {
 
 /* line 11, ../components/sass/imports/_navigation.scss */
 nav {
-  z-index: 99;
+  z-index: 999;
   float: left;
   direction: ltr;
   padding: 0 10px;

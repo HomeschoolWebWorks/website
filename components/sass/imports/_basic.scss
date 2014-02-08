@@ -186,15 +186,14 @@ p {
 /*-----  End of Skills  ------*/
 
 /*============================
-=            Team            = // Currently Being Worked On by: Micaiah
+=            Team            = // Complete, just needs content.
 ============================*/
 
 .team-bg {
-    // Style only if needed.
+    margin-top: 50px;
 }
 
 .team {
-    margin-top: 50px;
     @include gridle(12);
 }
 
@@ -254,4 +253,95 @@ p {
 
 
 /*-----  End of Team  ------*/
+
+/*=================================
+=            Portfolio            =
+=================================*/
+
+.portfolio-bg {
+    margin-top: 75px;
+    width: 100%;
+    background: white url(../img/port-bg.png) fixed repeat;
+    width: 100%;
+    padding: 60px 0 60px 0;
+}
+
+.portfolio {
+    header {
+        text-align: center;
+        @include gridle(12);
+        margin-bottom: 30px;
+    }
+    section {
+        margin: 10px;
+        @include gridle(3);
+        width: 300px;
+        height: 168px;
+        background: $white url(../img/item_thumb.jpg) center no-repeat;
+        &:hover {
+            @include transition(0.3s);
+            .fa-plus-circle {
+                opacity: 0.8;
+                margin-left: 80px;
+            }
+            .fa-external-link {
+                opacity: 0.8;
+                margin-left: 10px;
+                transition-delay: 0.1s;
+            }
+            .fa-star {
+                opacity: 0.8;
+                margin-left: 10px;
+                transition-delay: 0.2s;
+            }
+        }
+    }
+
+}
+.portfolio section .fa {
+    margin-top: 70px;
+    margin-left: 0;
+    opacity: 0;
+    @include transition(0.3s);
+    color: $lightPurple;
+    &:hover {
+        opacity: 1;
+        @include rotate(15deg);
+    }
+}
+
+.portfolio section .fa-plus-circle {
+    color: $lightRed;
+}
+
+.portfolio section .fa-star {
+    color: $darkYellow;
+}
+
+
+.portfolio h1 {
+    color: $lightPurple;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+        &:before {
+            content: url(../img/line_purple.png);
+            float: left;
+            position: relative;
+            bottom: 15px;
+            left: 35px;
+        }
+        &:after {
+            content: url(../img/line_purple.png);
+            float: right;
+            position: relative;
+            bottom: 15px;
+            right: 35px;
+        }
+}
+
+
+
+
+/*-----  End of Portfolio  ------*/
+
+
 
